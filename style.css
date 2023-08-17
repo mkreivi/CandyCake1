@@ -22,6 +22,7 @@ body {
   z-index: 999;
   width: 100%;
   padding: 10px 0;
+
   /* Add these properties to make the menu take up the remaining space */
 
 }
@@ -44,7 +45,9 @@ img.logoCandyCake {
   align-items: center;
   justify-content: center;
   padding: 10px 0;
+
 }
+
 ul {
   list-style: none;
   
@@ -55,7 +58,7 @@ nav ul {
 }
 nav li {
   list-style: none;
-  margin: 10px;
+  margin: 10px 60px;
   font-size: 20px;
   text-transform: uppercase;
 
@@ -68,7 +71,10 @@ nav a {
 }
 nav a:hover {
   color: lightslategray; 
+  text-decoration: underline;
+
 }
+
 
 img.heroCake {
   margin: 10px;
@@ -95,10 +101,13 @@ img.heroCake {
 }
 .heading {
   font-size: 25px;
-
+margin: 20px;
   text-transform: uppercase;
   color: #000;
   text-align: center;
+}
+hr {
+  margin: 20px;
 }
 .productContainer {
   display: flex;
