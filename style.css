@@ -142,13 +142,10 @@ button {
   width: 1160px;
   height: 200px;
   background-color: #B5F4F1;
-  color: #7AB4CE;
-  font-size: 50px;
-
-
-
-
+  color: #515353;
+  font-size: 40px;
 }
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -173,4 +170,8 @@ footer {
 .footer1 {
   display: flex;
   justify-content: space-between;
+}
+
+@media all and (max-width: 800px) {
+
 }
