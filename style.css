@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+
 }
 body {
   margin: 0 auto; /* Center the content horizontally */
@@ -105,7 +107,6 @@ img.heroCake {
 .products {
   display: flex;
   flex-direction: column;
- 
   align-items: center;
 
  
@@ -139,15 +140,27 @@ button {
 
 }
 footer {
-    width: 100%;
-    height: 50px;
-    background-color: #B5F4F1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
+    width: 100%;
+    height: 100px;
+    background-color: #F9C9DE;
+    margin-top: 20px;
     bottom: 0;
     left: 0;
     z-index: 999;
-    display: flex;
-    position: center;
-    align-items: center;
-    justify-content: center;
+
+}
+.footerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.footer1 {
+  display: flex;
+  justify-content: space-between;
 }
