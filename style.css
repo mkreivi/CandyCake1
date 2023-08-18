@@ -169,17 +169,13 @@ footer {
   align-items: center;
 
 }
-.footer1 {
-  display: flex;
-  justify-content: space-between;
-}
 
-/* Add your existing CSS rules above */
+
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   body {
-    margin: 0 auto; /* Center the content horizontally */
+    margin: 0 auto; 
     width: 600px; 
   }
 
